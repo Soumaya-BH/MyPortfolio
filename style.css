@@ -146,3 +146,29 @@ list-style: none;
     font-size: 50%;
     color: black;
 }
+@media screen and (max-width:1024px){
+    .about_me_content{
+        width: 70%;
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        font-family: 'Fredoka One', cursive;
+        font-size: 250%;
+    }
+    .button_style{
+    font-size: 0.7rem;
+    }
+}
+@media screen and (max-width:768px){
+    .about_me_content{
+        width: 70%;
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        font-family: 'Fredoka One', cursive;
+        font-size: 190%;
+    }
+    .button_style{
+    font-size: 0.5rem;
+    }
+}
