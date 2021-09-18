@@ -1,0 +1,148 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #FFFFFF;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: 5px;
+    font-size: 20px;
+
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.nav-links li{
+list-style: none;
+}
+
+.nav-links a{
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 25px;
+    height: 2px;
+    background-color: #000000;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width:1024px){
+   .nav-links{
+     width: 70%;
+   }
+}
+
+@media screen and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+   .nav-links{
+       position: absolute;
+       right: 0px;
+       height: 92vh;
+       top:8vh;
+       background-color: #FFFFFF;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 50%;
+       transform: translateX(100%);
+       transition: transform 0.5s ease-in;
+       
+   }
+   .nav-links li{
+       opacity: 0;
+   }
+   .burger{
+       display: block;
+   }
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg)translate(-5px,-6px);
+}
+
+.about_me{
+    width: 100%;
+}
+.back_about_me{
+    width: 100%;
+    
+}
+.about_me_content{
+    width: 70%;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-family: 'Fredoka One', cursive;
+    font-size: 400%;
+}
+.simple_texte_about_me{
+    width: 60%;
+    font-size: 25%;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2%;
+}
+.button_style{
+    width: 35%;
+    padding: 1%;
+    border-radius: 15%;
+    border: none;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+}
+.button_style :hover{
+    cursor: pointer;
+    opacity: 0.4;
+}
+.icons{
+    font-size: 50%;
+    color: black;
+}
