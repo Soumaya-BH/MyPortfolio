@@ -139,6 +139,7 @@ list-style: none;
     border: none;
     font-size: 1.2rem;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 .button_style :hover{
     cursor: pointer;
@@ -207,3 +208,8 @@ list-style: none;
     margin: 5%;
     padding: 1%;
 }
+.certificate_img{
+    width: 300px;
+    margin: 5px;
+}
+
