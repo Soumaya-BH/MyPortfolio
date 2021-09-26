@@ -212,6 +212,9 @@ list-style: none;
     width: 300px;
     margin: 5px;
 }
+.certificate_img:hover{
+    width: 400px;
+}
 .contact_me{
     background-image: url('./images/back_contact-01.png');
     background-position: center;
