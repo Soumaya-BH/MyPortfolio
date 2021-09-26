@@ -212,4 +212,12 @@ list-style: none;
     width: 300px;
     margin: 5px;
 }
+.contact_me{
+    background-image: url('./images/back_contact-01.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    margin-top: 25px;
+}
 
