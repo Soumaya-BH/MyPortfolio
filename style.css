@@ -204,6 +204,7 @@ list-style: none;
     width: 80px;
 }
 .card_shadow{
+    background-color: white;
     border-radius: 15px;
     border: solid black 1px;
     box-shadow: 1px 1px 2px #FFFFFF, 0 0 1em #FBBB38, 0 0 0.2em #FBBB38; ;
@@ -224,6 +225,13 @@ list-style: none;
     background-size: cover;
     height: 40vh;
     margin-top: 25px;
+}
+.contact{
+    text-align: center;
+    color: #FFFFFF;
+    width: 80%;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
 }
 .fade-in {
     animation: fadeIn 5s;
@@ -255,5 +263,11 @@ list-style: none;
   @-ms-keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
+  }
+  .design_back{
+      background-image: url('./images/design_back-01.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
   }
 
