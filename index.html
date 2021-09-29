@@ -23,12 +23,12 @@
             <h2>  <em> S.B.H</em>  </h2>
         </div> 
             <ul class="nav-links">
-                <li><a href="#">About me</a></li>
+                <li><a href="#about_me">About me</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#">Certificates</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact me</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact_me">Contact me</a></li>
             </ul>
         <div class="burger">
             <div class="line1"></div>
@@ -43,7 +43,7 @@
     <section>
 
             <!--abouut meeee-->
-            <div style="width: 100%;">
+            <div style="width: 100%;" id="about_me">
                 <div class="row">
                     <div class="col-sm">
                         <div class="about_me_content">
@@ -54,7 +54,7 @@
                                 I'm a web developper passionate with Graphic Design. <br> I'm a master degree student in high institute of computer science ElManar, where I completed my licence.
                                <br> Currently I'm looking for any opprtunity: freelance, part-time job ...                </div>
                                <div style="width: 50%; text-align: center;">
-                            <button class="button_style" style="background-color: #FBBB38; border-color: #FBBB38;"> <strong> Commencer </strong> </button>
+                            <a href="#services"><button class="button_style" style="background-color: #FBBB38; border-color: #FBBB38;"> <strong> Commencer </strong> </button></a>
                             <a href="images/cv_final.pdf" download="cv_Soumaya" target="_blank" class="button_style" style="background-color: #000000; color: #FFFFFF; border-color: black;"> <strong> Download CV </strong> </a>
     
                             <br>
@@ -62,6 +62,7 @@
                                 <a href="https://www.linkedin.com/in/soumaya-ben-hassine-b98857199/" target="_blank" class="icons"><i class="fab fa-linkedin"></i></a>
                                 <a href="https://github.com/Soumaya-BH" target="_blank" class="icons"><i class="fab fa-github-square"></i></a>
                                 <a href="https://www.behance.net/soumayabenhas/projects" target="_blank" class="icons"><i class="fab fa-behance-square"></i></a>
+                                <a href="https://codeforces.com/profile/soumaya_BH" target="_blank" class="icons"><i class="fas fa-code"></i></a>
                                 </div>
 
                             </div> 
@@ -71,7 +72,7 @@
                     </div>
                 </div>
             </div>
-            <div class="design_back">
+
             <!--Serviceeees-->
         <div class="container Services"  id="services">
             <div class="title">
@@ -79,9 +80,9 @@
             </div> 
             <div class="row">
                 <div class="col-sm sous_titre"><i class="fas fa-pen-nib service_icons"></i> <br> <strong> Graphic Design </strong>
-                     <div class="simple_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div></div>
+                     <div class="simple_text">I can help you create the perfect logo, banner, social media posts. With my expertise in illustrator, I can make something for you according to your needs.</div></div>
                      <div class="col-sm sous_titre"><i class="fas fa-laptop-code service_icons"></i> <br> <strong>Web Developement</strong>
-                        <div class="simple_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div></div>
+                        <div class="simple_text">I can create web application or design your website from scratch. <br>I also have experience with wordpress.</div></div>
             </div>
         </div>
 
@@ -107,9 +108,8 @@
                 </div>
           
         </div></div>
-    </div>
           <!--Certifiicates-->
-          <div class="container Services" id="services">
+          <div class="container Services" id="certificates">
             <div class="title">
                 <h2>  <em> Certificates</em>  </h2> <br>
             </div> 
@@ -142,7 +142,7 @@
 
         <!--Projeeects-->
         <br><br>
-        <div class="container Services" id="services">
+        <div class="container Services" id="projects">
             <div class="title">
                 <h2>  <em> Projects</em>  </h2> <br>
             </div> 
@@ -152,8 +152,8 @@
                         <img src="images/mnetSite-04.png" alt="sql" class="card-img-top">
                         <div class="card-body">
                           <h5 class="card-title">MNET website redesign</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn" style="background-color: #FBBB38; color: #FFFFFF;">Go somewhere</a>
+                          <p class="card-text">Currently, I'm redesigning and developping MNET website from scratch.</p>
+                         <!-- <a href="#" class="btn" style="background-color: #FBBB38; color: #FFFFFF;">Go somewhere</a>-->
                         </div>
                       </div>
                     
@@ -163,7 +163,7 @@
                         <img src="images/webessor_site-01.png" alt="Webessor_Site" class="card-img-top">
                         <div class="card-body">
                           <h5 class="card-title">Webessor Site</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text">As a project with Webessor, we've designed and developped a website using wordpress</p>
                           <a href="https://www.webessor-digital.com/" target="_blank" class="btn" style="background-color: #FBBB38; color: #FFFFFF;">See more</a>
                         </div>
                       </div>                </div>
@@ -171,8 +171,9 @@
                     <div class="card" style="width: 20rem; background-color:cornsilk; margin: 5px;">
                         <img src="images/app_webessor-05.png" alt="sql" class="card-img-top">
                         <div class="card-body">
-                          <h5 class="card-title">Application de gestion de rédactions</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <h5 class="card-title">Redaction management web application</h5>
+                          <p class="card-text">As a graduation project, we've developed a web application using react and laravel.
+                            The idea was to facilitate the communication between the client and web redactors.</p>
                           <a href="images/Présentation Imen Soumaya.pptx" download="Presentation_application" target="_blank" class="btn" style="background-color: #FBBB38; color: #FFFFFF;">See more</a>
                         </div>
                       </div>                </div>
@@ -185,8 +186,8 @@
                         <img src="images/rebranding_MNET-03.png" alt="sql" class="card-img-top">
                         <div class="card-body">
                           <h5 class="card-title">MNET rebranding</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn" style="background-color: #FBBB38; color: #FFFFFF;">Go somewhere</a>
+                          <p class="card-text">As a project with Webessor, I've redesign MNET logo.</p>
+                          <a href="images/Charte_Graphique_MNET.pdf" download="MNET_charte_graphique" target="_blank" class="btn" style="background-color: #FBBB38; color: #FFFFFF;">See more</a>
                         </div>
                       </div>
                     
@@ -196,7 +197,7 @@
                         <img src="images/social_media_posts-02.png" alt="sql" class="card-img-top">
                         <div class="card-body">
                           <h5 class="card-title">Social Media Posts</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text">During two years, I've worked with associations (Tunisian Red Crescent..), clubs (Freeways ISI) and small business. Currently I work as a freelance graphic designer with Webessor and Elios Academy</p>
                           <a href="https://www.behance.net/soumayabenhas/projects" target="_blank" class="btn" style="background-color: #FBBB38; color: #FFFFFF;">See more</a>
                         </div>
                       </div>                </div>
@@ -208,7 +209,7 @@
        
     </section>
      <!--contaaact-->
-     <footer class="contact_me">
+     <footer class="contact_me" id="contact_me">
         <div class="container contact"> <br> <br>
             <div><i class="fas fa-paper-plane" style="color: #FBBB38;"></i><br>
                 soumayabenhassine29@gmail.com</div><br><br>
